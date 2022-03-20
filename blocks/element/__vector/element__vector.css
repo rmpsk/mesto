@@ -1,0 +1,22 @@
+.element__vector {
+  background-image: url(../../../images/heart.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  width: 22px;
+  height: 19px;
+  margin-top: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.element__vector:hover {
+  opacity: 0.5;
+}
+
+.element__vector:active {
+  background-image: url(../../../images/black_heart.svg);
+  opacity: 1;
+}
